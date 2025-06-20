@@ -1,0 +1,277 @@
+body  {background-color: white;
+	   color: #666666;
+	   font-family: Arial;
+	   margin: 0;
+	   padding: 0;
+	   line-height: 1.6;
+	   }
+header {background-color: white;
+		color: black;
+		padding: 10px 0;
+		}
+header a {
+	color: black;
+	text-decoration: none;
+	margin-left: 10px;
+	font-family: Arial;
+	text-align: center;
+}
+header img {margin-top: 10px;
+}
+h1 {margin-bottom:0;
+	font-family: Arial, "Times New Roman", serif;
+	
+}
+main {
+  padding-left: 30px; 
+}
+nav {background-color: white;
+	 color: white;
+	font-weight: bold;
+}
+nav a {color: black;
+	text-decoration: none; }
+h2 {color: #000000;
+	font-family: Arial, "Times New Roman", serif;
+	font-size: 2em;}
+h3 {color: #000033;
+	font-family: Arial, "Times New Roman", serif;}
+h4 {color: #000000;
+font-weight: bold;
+ font-family: Arial, "Times New Roman", serif;
+ }
+p {color: black;
+}
+ul {list-style-image: url(marker.gif);
+color: black; }
+ol {color: black;
+}
+dt { color: #002171; }
+footer {color: black;
+		font-family: Arial;
+}
+.logo { max-width: 20%; height: auto; }
+
+.contact-logo { max-width: 10%; height: auto; }
+
+.clutchup {
+		font-weight: bold; }
+		#contact { font-size: 90% }
+		footer {
+			font-size: 100%;
+			font-style: italic;
+			text-align: center;
+		    font-family: Arial;
+}
+.info-grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: white;
+}
+.info-grid div {
+  border: 3px solid #000;
+  box-sizing: border-box;
+  width: 30%;
+  text-align: center;
+  background-color: #df6607;
+}
+.info-grid a {
+	color: black;
+	text-decoration: none;
+}
+.safetytips {color: black;
+font-weight: bold; }
+.checklist-box {
+  border: 2px solid #333;   
+  border-radius: 6px;          
+  padding: 20px;                
+  margin: 20px 0;               
+  background-color: #79c262;   
+   
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.header-container h1 {
+    margin: 0;
+    flex: 0 0 auto;
+}
+
+.header-container nav {
+    margin-left: 300px; 
+}
+
+.header-container nav a {
+    margin-left: 10px;	
+    text-decoration: none;
+	text-align: center;
+}
+hr {
+  width: 100%;
+  border: none;
+  border-top: 2.5px solid black; 
+}
+.h2_logo {
+	height: 1em;
+	width: auto;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.banner {
+	background-image: url('images/motorcyclist.png');
+	background-size: cover;
+	background-position: center 30%;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	padding: 0 40px;
+	color: white;
+}
+.banner-content {
+	max-width: 600px;
+	text-align: left;
+}
+.banner-content h2 {
+	color: white;
+	font-family: Arial;
+	line-height: 1.1;
+	font-size: 3.5em;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top:-30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.banner-content h3 {
+	color: white;
+	font-family: Arial;
+	line-height: 1.1;
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-top:-30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.banner-content p {
+    color: #d4650e;
+    font-family: Arial;
+    font-size: 1.2em;
+    line-height: 1.5;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.7)
+}
+.shift-table-container {
+            font-family: 'Inter', sans-serif; 
+			color: black;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 12px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            overflow-x: auto; 
+        }
+
+        .shift-table {
+            width: 100%;
+            border-collapse: collapse; 
+            margin-top: 15px;
+        }
+
+        .shift-table th,
+        .shift-table td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        .shift-table th {
+            background-color: #f0f4f8;
+            color: #334155;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .shift-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .shift-table tr:hover {
+            background-color: #e2f0ff;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .shift-table caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        .disclaimer {
+            font-size: 0.85em;
+            color: #64748b;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: yellow;
+            border-left: 4px solid yellow; 
+            border-radius: 4px;
+        }
+
+        
+        @media (max-width: 600px) {
+            .shift-table th,
+            .shift-table td {
+                padding: 8px 10px;
+                font-size: 0.9em;
+			}
+		}
+		
+.newsletter-form {
+  margin-top: 20px;
+  max-width: 300px;
+}
+.newsletter-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000033;
+  font-family: Arial, sans-serif;
+}
+.newsletter-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  max-width: 250px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.newsletter-form input[type="submit"] {
+  width: auto;
+  background-color: #df6607;
+  color: white;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+.newsletter-form input[type="submit"]:hover {
+  background-color: #b34f04;
+}
+@media (max-width: 768px) {
+  .newsletter-form {
+    max-width: 100%;
+  }
+  .newsletter-form input {
+    max-width: 100%;
+  }
+}
+.required-asterisk {
+	color: red;
+}
