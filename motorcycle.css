@@ -275,8 +275,7 @@ hr {
 .required-asterisk {
 	color: red;
 }
-@media (max-width: 768px) { 
-    .header-container {
+.header-container {
         flex-direction: column; 
         align-items: flex-start; 
         padding: 10px 20px;
@@ -290,6 +289,3 @@ hr {
 
     nav a {
         display: block;
-        margin: 5px 0;
-        padding: 5px 0;
-    }
